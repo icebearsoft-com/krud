@@ -1,5 +1,5 @@
 {
-    "name": "krud",
+    "name": "icebearsoft/krud",
     "description": "Herramienta de gestión de sistemas",
     "keywords": ["krud", "gestión", "sistemas", "usuarios", "roles", "CRUD"],
     "license": "MIT",
