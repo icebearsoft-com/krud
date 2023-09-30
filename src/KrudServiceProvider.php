@@ -85,7 +85,7 @@ class KitukizuriServiceProvider extends ServiceProvider
     {
         $prefix = config('kitukizuri.routePrefix') ?? 'krud';
 
-        Route::group(['prefix' => $prefix,'namespace' =>'Icebearsoft\\Kitukizuri\\App\\Http\\Controllers', 'middleware' => ['web', 'auth', 'kitukizuri', 'kmenu']], function () {
+        Route::group(['prefix' => $prefix,'namespace' =>'Icebearsoft\\Krud\\App\\Http\\Controllers', 'middleware' => ['web', 'auth', 'kitukizuri', 'kmenu']], function () {
             Route::get('/', 'DashboardController@index')->name('dashboard.index');
             Route::resource('roles', 'RolesController');
             Route::resource('modulos', 'ModulosController');
@@ -144,8 +144,8 @@ class KitukizuriServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('kitukizuri', function ($app) {
-            return new KituKizuri;
+        $this->app->singleton('krud', function ($app) {
+            return new Krud;
         });
     }
 }
