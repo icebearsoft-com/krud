@@ -4,7 +4,7 @@ namespace Icebearsoft\Krud\App\Models;
 
 use Icebearsoft\Krud\App\Database\TrinoConnection;
 
-class Trino
+class TrinoModel
 {
     protected $connection = null;
 
