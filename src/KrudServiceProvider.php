@@ -16,7 +16,7 @@ use Icebearsoft\Krud\App\Console\Command\{
     SetDocker
 };
 
-class KitukizuriServiceProvider extends ServiceProvider
+class KrudServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
