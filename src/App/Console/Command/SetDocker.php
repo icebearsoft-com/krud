@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Console\Command;
+namespace Icebearsoft\Krud\App\Console\Command;
 
 use DB;
 use Config;
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Artisan;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\PhpExecutableFinder;
 
-use Icebearsoft\Kitukizuri\App\Traits\UtilityTrait;
+use Icebearsoft\Krud\App\Traits\UtilityTrait;
 
 class SetDocker extends Command
 {

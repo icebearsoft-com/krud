@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Database;
+namespace Icebearsoft\Krud\App\Database;
 
 use GuzzleHttp\Client;
 

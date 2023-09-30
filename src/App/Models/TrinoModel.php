@@ -1,8 +1,8 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Models;
+namespace Icebearsoft\Krud\App\Models;
 
-use Icebearsoft\Kitukizuri\App\Database\TrinoConnection;
+use Icebearsoft\Krud\App\Database\TrinoConnection;
 
 class Trino
 {

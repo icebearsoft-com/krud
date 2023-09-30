@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri;
+namespace Icebearsoft\Krud;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Blade;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
 
-use Icebearsoft\Kitukizuri\App\Console\Command\{
+use Icebearsoft\Krud\App\Console\Command\{
     MakeModule,
     KrudInstall,
     DefaultData,
@@ -25,12 +25,12 @@ class KitukizuriServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        AliasLoader::getInstance()->alias('Kitukizuri', 'Icebearsoft\Kitukizuri\KituKizuri');
-        AliasLoader::getInstance()->alias('Krud', 'Icebearsoft\Kitukizuri\Krud');
+        AliasLoader::getInstance()->alias('Kitukizuri', 'Icebearsoft\Krud\KituKizuri');
+        AliasLoader::getInstance()->alias('Krud', 'Icebearsoft\Krud\Krud');
 
-        $router->aliasMiddleware('kitukizuri', 'Icebearsoft\Kitukizuri\App\Http\Middleware\KituKizurimd');
-        $router->aliasMiddleware('kmenu', 'Icebearsoft\Kitukizuri\App\Http\Middleware\Menu');
-        $router->aliasMiddleware('klang', 'Icebearsoft\Kitukizuri\App\Http\Middleware\SetLang');
+        $router->aliasMiddleware('kitukizuri', 'Icebearsoft\Krud\App\Http\Middleware\KituKizurimd');
+        $router->aliasMiddleware('kmenu', 'Icebearsoft\Krud\App\Http\Middleware\Menu');
+        $router->aliasMiddleware('klang', 'Icebearsoft\Krud\App\Http\Middleware\SetLang');
 
         $this->configureViewsBladeComponents();
         $this->configureCommands();

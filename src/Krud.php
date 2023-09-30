@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri;
+namespace Icebearsoft\Krud;
 
 // Dependencias
 use DB;

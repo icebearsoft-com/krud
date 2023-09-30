@@ -31,7 +31,7 @@ Configurar nuestro service provider dentro de **config/app.php** :
 
 ```php
 'providers' => [
-  Icebearsoft\Kitukizuri\KitukizuriServiceProvider::class
+  Icebearsoft\Krud\KitukizuriServiceProvider::class
 ]
 ```
 

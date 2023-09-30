@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Models;
+namespace Icebearsoft\Krud\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

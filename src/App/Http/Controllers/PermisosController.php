@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Mockery\Exception;
 use Illuminate\Http\Request;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Crypt;
 use App\Http\Controllers\Controller;
 
 //Models
-use Icebearsoft\Kitukizuri\App\Models\{
+use Icebearsoft\Krud\App\Models\{
 	Permiso,
 	ModuloPermiso,
 	RolModuloPermiso

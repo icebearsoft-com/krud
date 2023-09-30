@@ -1,11 +1,17 @@
 {
-    "name": "icebearsoft/kitukizuri",
-    "description": "Auth",
+    "name": "krud",
+    "description": "Herramienta de gestión de sistemas",
+    "keywords": ["krud", "gestión", "sistemas", "usuarios", "roles", "CRUD"],
     "license": "MIT",
+    "homepage": "https://krud.icebearsoft.com",
+    "support": {
+        "issues": "https://github.com/icebearsoft/krud/issues",
+        "source": "https://github.com/icebearsoft/krud"
+    },
     "authors": [
         {
-            "name": "Josue Perez",
-            "email": "jperez.chek@gmail.com"
+            "name": "Josue Pérez",
+            "email": "jperez@icebearsoft.com"
         }
     ],
     "require": {
@@ -16,13 +22,13 @@
 	   "classmap": [
     	],
     	"psr-4": {
-    	    "Icebearsoft\\Kitukizuri\\": "src"
+    	    "Icebearsoft\\Krud\\": "src"
     	}
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Icebearsoft\\Kitukizuri\\KitukizuriServiceProvider"
+                "Icebearsoft\\Krud\\KrudServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
@@ -8,7 +8,7 @@ use Auth;
 use App\Http\Controllers\Controller;
 
 //Models
-use Icebearsoft\Kitukizuri\App\Models\{
+use Icebearsoft\Krud\App\Models\{
     Modulo,
     UsuarioRol,
     RolModuloPermiso

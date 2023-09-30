@@ -1,12 +1,12 @@
 <?php 
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Krud;
 
 use Auth;
 
-use Icebearsoft\Kitukizuri\App\Models\Usuario;
+use Icebearsoft\Krud\App\Models\Usuario;
 
 class UsuariosController extends Krud
 {

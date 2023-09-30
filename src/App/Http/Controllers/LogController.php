@@ -1,9 +1,9 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Icebearsoft\Kitukizuri\App\Models\LaravelLogReader;
+use Icebearsoft\Krud\App\Models\LaravelLogReader;
 class LogController extends Controller
 {
     public function index()

@@ -1,13 +1,13 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Middleware;
+namespace Icebearsoft\Krud\App\Http\Middleware;
 
 use Route;
 use Session;
 use Closure;
 
 // Controller
-use Icebearsoft\Kitukizuri\App\Http\Controllers\MenuController;
+use Icebearsoft\Krud\App\Http\Controllers\MenuController;
 
 class Menu
 {

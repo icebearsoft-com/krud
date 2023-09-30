@@ -1,12 +1,12 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Auth;
 use Route;
 
 // Models
-use Icebearsoft\Kitukizuri\App\Models\{
+use Icebearsoft\Krud\App\Models\{
     Menu,
     UsuarioRol
 };

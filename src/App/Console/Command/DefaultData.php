@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Console\Command;
+namespace Icebearsoft\Krud\App\Console\Command;
 
 use DB;
 use Config;

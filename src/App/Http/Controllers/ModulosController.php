@@ -1,8 +1,8 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
-use Icebearsoft\Kitukizuri\App\Models\Modulo;
+use Icebearsoft\Krud\App\Models\Modulo;
 use Krud;
 
 class ModulosController extends Krud

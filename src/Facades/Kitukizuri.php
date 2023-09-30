@@ -1,4 +1,4 @@
-<?php namespace Icebearsoft\Kitukizuri\Facades;
+<?php namespace Icebearsoft\Krud\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

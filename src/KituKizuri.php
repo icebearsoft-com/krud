@@ -1,18 +1,18 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri;
+namespace Icebearsoft\Krud;
 
 use Route;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
 //== Models
-use Icebearsoft\Kitukizuri\App\Models\Modulo;
-use Icebearsoft\Kitukizuri\App\Models\Permiso;
-use Icebearsoft\Kitukizuri\App\Models\UsuarioRol;
-use Icebearsoft\Kitukizuri\App\Models\ModuloPermiso;
-use Icebearsoft\Kitukizuri\App\Models\ModuloEmpresas;
-use Icebearsoft\Kitukizuri\App\Models\RolModuloPermiso;
+use Icebearsoft\Krud\App\Models\Modulo;
+use Icebearsoft\Krud\App\Models\Permiso;
+use Icebearsoft\Krud\App\Models\UsuarioRol;
+use Icebearsoft\Krud\App\Models\ModuloPermiso;
+use Icebearsoft\Krud\App\Models\ModuloEmpresas;
+use Icebearsoft\Krud\App\Models\RolModuloPermiso;
 
 class KituKizuri extends Controller
 {

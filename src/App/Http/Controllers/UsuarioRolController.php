@@ -1,13 +1,13 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Krud;
 use Auth;
 use Illuminate\Http\Request;
 
 //=== Models
-use Icebearsoft\Kitukizuri\App\Models\{
+use Icebearsoft\Krud\App\Models\{
     Rol,
     UsuarioRol
 };

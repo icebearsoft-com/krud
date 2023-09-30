@@ -1,11 +1,11 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Crypt;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Icebearsoft\Kitukizuri\App\Models\{
+use Icebearsoft\Krud\App\Models\{
     Mysql,
     Tenants,
     Connection

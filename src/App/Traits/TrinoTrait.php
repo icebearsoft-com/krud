@@ -1,6 +1,6 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Traits;
+namespace Icebearsoft\Krud\App\Traits;
 
 trait TrinoTrait
 {

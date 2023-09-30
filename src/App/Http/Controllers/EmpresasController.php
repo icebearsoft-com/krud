@@ -1,11 +1,11 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Http\Controllers;
+namespace Icebearsoft\Krud\App\Http\Controllers;
 
 use Krud;
 
 //Models
-use Icebearsoft\Kitukizuri\App\Models\Empresa;
+use Icebearsoft\Krud\App\Models\Empresa;
 
 class EmpresasController extends Krud
 {

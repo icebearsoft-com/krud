@@ -1,15 +1,15 @@
 <?php
 
-namespace Icebearsoft\Kitukizuri\App\Console\Command;
+namespace Icebearsoft\Krud\App\Console\Command;
 
 use DB;
 use Config;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 
-use Icebearsoft\Kitukizuri\Models\Modulo;
-use Icebearsoft\Kitukizuri\Models\Permiso;
-use Icebearsoft\Kitukizuri\Models\ModuloPermiso;
+use Icebearsoft\Krud\Models\Modulo;
+use Icebearsoft\Krud\Models\Permiso;
+use Icebearsoft\Krud\Models\ModuloPermiso;
 
 class MakeModule extends Command
 {    
