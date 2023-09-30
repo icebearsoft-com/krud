@@ -6,13 +6,24 @@ use Icebearsoft\Krud\App\Database\TrinoConnection;
 
 class Trino
 {
-    protected $connection;
+    protected $connection = null;
 
+    /**
+     * __construct
+     *
+     * @return void
+     */
     public function __construct()
     {
         $this->connection = new TrinoConnection();
     }
 
+    /**
+     * select
+     *
+     * @param  mixed $sql
+     * @return void
+     */
     public function select($sql)
     {
         return $this->connection->execute($sql);
