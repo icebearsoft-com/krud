@@ -1,7 +1,7 @@
 @extends('krud.layout')
 
 @section('styles')
-   
+
 @endsection
 
 @section('content')

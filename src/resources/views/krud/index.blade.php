@@ -11,9 +11,9 @@
     @if (!empty(Session::get('type')) && !empty(Session::get('msg')))
         <div class="alert alert-{{Session::get('type')}}" role="alert">
             {{Session::get('msg')}}
-        </div>    
+        </div>
     @endif
-    
+
     <div class="col-md-12">
         <table id="table1" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
             <thead>
@@ -24,7 +24,7 @@
                     <td width="10%"></td>
                 </tr>
             </thead>
-            <tbody>                        
+            <tbody>
             </tbody>
         </table>
     </div>
