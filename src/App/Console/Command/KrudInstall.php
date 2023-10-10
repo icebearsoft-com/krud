@@ -20,7 +20,7 @@ use Icebearsoft\Krud\App\Traits\{
 
 class KrudInstall extends Command
 {
-    use UtilityTrait, LdapTrait, VueTrait, MongoTrait, configTrino;
+    use UtilityTrait, LdapTrait, VueTrait, MongoTrait, TrinoTrait;
 
     /**
      * The name and signature of the console command.
